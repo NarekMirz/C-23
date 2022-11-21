@@ -4,6 +4,10 @@ System.Console.WriteLine("Введите число больше 99 ");
 
 int myNum = int.Parse(Console.ReadLine());
 
+if (myNum > 1000)
+{
+    
+}
 if(myNum < 100)
 {
     System.Console.WriteLine("Третьей цифры нет");
@@ -11,10 +15,5 @@ if(myNum < 100)
 else
 {
     int thirdNum = myNum % 10;
-    System.Console.WriteLine(thirdNum);
-}
-if (myNum > 999)
-{
-    int thirdNum = (myNum / 100) % 10;
     System.Console.WriteLine(thirdNum);
 }
